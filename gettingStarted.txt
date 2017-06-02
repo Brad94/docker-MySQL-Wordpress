@@ -1,0 +1,11 @@
+sudo apt-get -y install docker.io
+
+Run commands in dockerfile
+
+Navigate to ec2PublicDNS:8080
+
+Commands to know:
+
+docker ps -a #shows all containers active or inactive
+docker stop test-mysql #stops mysql/change to test-wordpress to stop wordpress
+docker rm test-mysql #removes/change to test-wordpress to remove wordpress
